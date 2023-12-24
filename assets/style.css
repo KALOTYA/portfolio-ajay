@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  main {
+    display: inline-block;
+    flex-wrap: wrap;
+    margin-top: 2%;
+  }
+  
+  aside {
+    flex: 1;
+    background-color: bisque;
+    text-align: end;
+    padding: 90px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    background: #13293d;
+    color: #fff;
+  }
+  
+  .Work {
+    flex: 1 0 200px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    background-color: lightblue;
+  }
+  
+  
+footer {
+    padding: 20px;
+    background: #13293d;
+    color: #fff;
+  }
+  
+  @media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+    }
