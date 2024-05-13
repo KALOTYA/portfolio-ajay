@@ -3,66 +3,76 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Link to external stylesheet -->
     <link rel="stylesheet" href="assets/style.css">
-    <title>Code Snippets</title>
+    <!-- Page title -->
+    <title>Ajay Portfolio</title>
   </head>
   <body>
-    <header><h1>Ajaypaul Kaloty</h1></header>
-    <nav>
-        <a href="#">About Me</a>
-        <a href="#">Work</a>
-        <a href="#">Contact Me</a>
-        <a href="#">Resume</a>
-      </nav>
-      <p>Developer,Artist,Designer</p>
+    <header class="header">
+        <!-- Header section -->
+        <h1>Ajaypaul Kaloty</h1>
+        <!-- Navigation -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="#about-anchor">About Me</a></li>
+                <li><a href="#work-anchor">Work</a></li>
+                <li><a href="#contact-anchor">Contact Me</a></li>
+                <li><a href="#resume-anchor">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main content -->
     <main>
-        <aside>
+        <section id="about-anchor">
+            <!-- About Me section -->
             <h2>About Me</h2>
-        </aside>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio possimus inventore dignissimos aliquid accusantium amet at saepe veniam voluptatum, ipsa odio minima? Laudantium animi ipsa reprehenderit beatae sit recusandae eius.
-        </p>
-        <aside>
+            <p>
+                My name is Ajaypaul. I am a Grapghic Designer that got my start making art projects in school. Now i have a social media page where I can cartoonify peoples cars and turn them into drawings using Adobe illustrator. I am currently making my way through a Full-Stack Web development course and am on track to making a Major career Change. Please check-out some of my work below!
+            </p>
+        </section>
+        
+        <!-- Work section -->
+        <section id="work-anchor">
             <h2>Work</h2>
-        </aside>
-        <div class="Work">         
-        <section class="Work">
-            <figure>
-                <h3>Work 1</h3>
-            </figure>
+            <div class="work-container">
+                <div class="work-item-1">
+                    <h3>Password Generator</h3>
+                    <!-- Link to Password Generator project -->
+                    <a href="https://kalotya.github.io/password-generator/"> <img src="assets\passwordgenerator.png" class="work1-img" alt="image of work 1"> </a>
+                </div>
+                <div class="work-item-2">
+                    <h3>Code Quiz</h3>
+                    <!-- Link to Code Quiz project -->
+                    <a href="https://kalotya.github.io/code-quiz/"> <img src="assets\codequiz.gif" class="work2-img" alt="image of work 2"> </a>
+                </div>
+                <div class="work-item-3">
+                    <h3>Workday Scheduler</h3>
+                    <!-- Link to Workday Scheduler project -->
+                    <a href="https://kalotya.github.io/daily-planner/"> <img src="assets\workdayscheduler.gif" class="work3-img" alt="image of work 3"> </a>
+                </div>
+            </div>
         </section>
-        <section class="Work">
-            <figure>
-                <h3>Work 2</h3>
-            </figure>
-        </section>
-        <section class="Work">
-            <figure>
-                <h3>Work 3</h3>
-            </figure>
-        </section>
-        <section class="Work">
-            <figure>
-                <h3>Work 4</h3>
-            </figure>
-        </section>
-        <aside>
+
+        <!-- Contact Me section -->
+        <section id="contact-anchor">
             <h2>Contact Me</h2>
-        </aside>
-        <section>
             <p>(123)123-4567</p>
             <p>kalotya99@gmail.com</p>
-            <p>github</p>
-            <p>linked-in</p>
+            <p>GitHub: <a href="https://github.com/yourusername">Your GitHub</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/yourusername">Your LinkedIn</a></p>
         </section>
-        </div>
-        <aside>
+
+        <!-- Resume section -->
+        <section id="resume-anchor">
             <h2>Resume</h2>
-        </aside>
-        <footer>
-            <h3>
-                Made with <3 and HTML and CSS.
-            </h3>
-        </footer>
+            <!-- Add your resume content here -->
+        </section>
     </main>
+
+    <!-- Footer section -->
+    <footer>
+        <p>Made with ❤️ and HTML and CSS.</p>
+    </footer>
+</body>
 <html>
